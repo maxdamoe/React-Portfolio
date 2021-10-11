@@ -1,10 +1,9 @@
 import "./App.css";
 import Navigation from "./screens/navigationBar/NavigationBar";
-import ParticleAnimation from "react-particle-animation";
-import Header from "./screens/header/Header";
-import AboutMe from "./screens/aboutMe/AboutMe";
-import Technologies from "./screens/tech/Technologies";
-import ContactMe from "./screens/contactMe/ContactMe";
+import Header from "./screens/header/header";
+import AboutMe from "./screens/about_me/about_me";
+import Tech from "./screens/tech/tech";
+import ContactMe from "./screens/contact_me/contact_me";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
         color={{ r: 255, g: 0, b: 104, a: 500 }}
       />
       <AboutMe />
-      <Technologies />
+      <Tech/>
 
       <ContactMe />
     </div>
