@@ -1,12 +1,12 @@
 import React from 'react'
-import './aboutMe.css'
+import './about_me.css'
 
 
 
 
 function AboutMe() {
   return (
-    <div className="about__container" id="about-me">
+    <div className="aboutContainer" id="about-me">
      {/* <div> */}
       {/* <img src={"../../images/avatar.jpg"} alt="my avatar"/> */}
      {/* </div> */}

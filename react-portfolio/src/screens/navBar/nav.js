@@ -1,11 +1,11 @@
 import React from "react";
-import "./navigation.css";
+import "./nav.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { navigationLinks } from "../../helpers/navigation";
+import { navLinks } from "../../helpers/navigation";
 
 function createLinks() {
-  return navigationLinks.map((e, idx) => (
+  return navLinks.map((e, idx) => (
     <Nav.Link key={idx} href={e.ref}>
       {e.name}
     </Nav.Link>
