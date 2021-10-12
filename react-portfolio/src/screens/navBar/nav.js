@@ -30,16 +30,18 @@ function navBar() {
           Jon Maximilian Simpson
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse
+        <Navbar.Collapse style={{ marginRight: "1rem" }}
           style={{
             justifyContent: "flex-end",
             marginRight: "1rem",
             borderColor: "none",
           }}
         >
+          <div class="movement">
           <Nav className="links" style={{ margin: "0 1rem" }}>
             {createLinks()}
           </Nav>
+          </div>
         </Navbar.Collapse>
       </Navbar>
     </div>

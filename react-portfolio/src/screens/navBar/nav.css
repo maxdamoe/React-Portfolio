@@ -18,3 +18,9 @@
   .links a:hover {
     background-color: var(--font-color-hover);
   }
+
+  .movement {
+    position:relative;
+    right:50px;
+    margin-right:20%;
+  }
